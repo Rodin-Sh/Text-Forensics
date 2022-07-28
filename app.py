@@ -20,7 +20,7 @@ FakeNewsCV = joblib.load(FakeNewsCV)
 
 EmotionDetector = 'EmotionDetector.sav'
 EmotionDetector = pickle.load(open(EmotionDetector, 'rb'))
-EmotionCV = '/EmotionCV.pkl'
+EmotionCV = 'EmotionCV.pkl'
 EmotionCV = joblib.load(EmotionCV)
 
 afn = Afinn()
