@@ -4,6 +4,7 @@ import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 import pickle
 import joblib
