@@ -1,0 +1,9 @@
+streamlit
+numpy
+tesorflow
+re
+nltk
+sklearn
+pickle
+joblib
+afinn
