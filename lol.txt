@@ -1,8 +1,0 @@
-streamlit
-numpy
-re
-nltk
-sklearn
-pickle
-joblib
-afinn
