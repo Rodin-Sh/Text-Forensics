@@ -25,7 +25,7 @@ EmotionCV = joblib.load(EmotionCV)
 
 afn = Afinn()
 
-text_input = st.text_area("Enter a text that you would like to have analyzed", max_chars=200)
+text_input = st.text_input("Enter a text that you would like to have analyzed", max_chars=200)
 
 def text_clean (text_input):
     text_input = re.sub('[^a-zA-Z]', ' ', text_input)
