@@ -1,8 +1,5 @@
-pip install streamlit
-pip install numpy
-pip install re
-pip install nltk
-pip install sklearn
-pip install pickle
-pip install joblib
-pip install afinn
+streamlit==1.11.1
+numpy==1.23.1
+nltk==3.7
+joblib==1.1.0
+afinn==0.1
