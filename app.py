@@ -69,15 +69,15 @@ if st.button("Perform Analysis"):
   else:
     y_SentimentLabel = 'Neutral'
 
-  with st.expander():
-    st.markdown('### Analysis Results')
-    st.markdown('##### **Sentiment Present:** ' + str(y_SentimentLabel))
-    st.write("The mental attitute within the text determined by authors' feelings.")
-    st.markdown('##### **Polarity Score:** ' + str(y_Sentiment))
-    st.write('The numerical measurement of the overall sentiments within a text.')
-    y_FakeNews = y_FakeNews[0]
-    st.markdown('##### **Factuality:** ' + str(News[y_FakeNews]))
-    st.write('The validity of the information of the text.')
-    y_Emotion = y_Emotion[0]
-    st.markdown('##### **Emotion:** ' + str(Emotions[y_Emotion]))
-    st.write('The psychological state of the text.')
+  
+  st.markdown('### Analysis Results')
+  st.markdown('##### **Sentiment Present:** ' + str(y_SentimentLabel))
+  st.write("The mental attitute within the text determined by authors' feelings.")
+  st.markdown('##### **Polarity Score:** ' + str(y_Sentiment))
+  st.write('The numerical measurement of the overall sentiments within a text.')
+  y_FakeNews = y_FakeNews[0]
+  st.markdown('##### **Factuality:** ' + str(News[y_FakeNews]))
+  st.write('The validity of the information of the text.')
+  y_Emotion = y_Emotion[0]
+  st.markdown('##### **Emotion:** ' + str(Emotions[y_Emotion]))
+  st.write('The psychological state of the text.')
